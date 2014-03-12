@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                              http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+    <parent>
+		<groupId>es.e-ucm.network-tools</groupId>
+		<artifactId>base</artifactId>
+		<version>0.1-SNAPSHOT</version>
+        <relativePath>../</relativePath>
+    </parent>
+
+	<artifactId>network-java</artifactId>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>es.e-ucm.network-tools</groupId>
+			<artifactId>network</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<!-- Jersey -->
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-json</artifactId>
+		</dependency>
+
+		<!-- GSON -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+
+		<!-- Proxy vole -->
+		<dependency>
+			<groupId>com.google.code</groupId>
+			<artifactId>proxy-vole</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/proxy-vole-1.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code</groupId>
+			<artifactId>proxy-vole-js</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/js-1.0.jar</systemPath>
+		</dependency>
+
+		<!-- JUnit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+
+	</dependencies>
+</project>
