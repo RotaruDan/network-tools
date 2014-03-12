@@ -37,18 +37,9 @@
 
 		<!-- Proxy vole -->
 		<dependency>
-			<groupId>com.google.code</groupId>
+			<groupId>com.btr</groupId>
 			<artifactId>proxy-vole</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/libs/proxy-vole-1.0.jar</systemPath>
-		</dependency>
-		<dependency>
-			<groupId>com.google.code</groupId>
-			<artifactId>proxy-vole-js</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/libs/js-1.0.jar</systemPath>
+			<version>0.1-SNAPHOT</version>
 		</dependency>
 
 		<!-- JUnit -->
